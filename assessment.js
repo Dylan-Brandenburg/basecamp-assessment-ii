@@ -35,14 +35,14 @@ var myFriends = ["leslie", "Jeremy", "Stephen","Jarrad"];
 // CODE HERE
 
 // #6 Add a fifth friends name to the end of your myFriends array
-myFriends[4] =" Otis";
+myFriends.push("Otis");
 // CODE HERE
 
 // #7 Create a 'myArrayCopy' variable. It should equal the myArray variable. Use the built in JavaScript method to create a copy.
 //DON'T TOUCH THE CODE BELOW
 var myArray = [1, 2, 3, 4];
 //DON'T TOUCH THE CODE ABOVE
-var myArrayCopy = myArray;
+var myArrayCopy =myArray.slice();
 // CODE HERE
 
 // #8 Below is a array, myNumbers. Create a function called 'evensOnly' that returns the 'evensArray' of only even numbers
